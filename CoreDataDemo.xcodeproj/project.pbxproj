@@ -14,6 +14,8 @@
 		454B16CA2897DD34007F2A60 /* CoreDataDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 454B16C82897DD34007F2A60 /* CoreDataDemo.xcdatamodeld */; };
 		454B16CC2897DD39007F2A60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 454B16CB2897DD39007F2A60 /* Assets.xcassets */; };
 		454B16CF2897DD39007F2A60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 454B16CD2897DD39007F2A60 /* LaunchScreen.storyboard */; };
+		454B16D82897DEE1007F2A60 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454B16D62897DEE1007F2A60 /* ListTableViewCell.swift */; };
+		454B16D92897DEE1007F2A60 /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 454B16D72897DEE1007F2A60 /* ListTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		454B16CB2897DD39007F2A60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		454B16CE2897DD39007F2A60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		454B16D02897DD39007F2A60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		454B16D62897DEE1007F2A60 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		454B16D72897DEE1007F2A60 /* ListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				454B16CD2897DD39007F2A60 /* LaunchScreen.storyboard */,
 				454B16D02897DD39007F2A60 /* Info.plist */,
 				454B16C82897DD34007F2A60 /* CoreDataDemo.xcdatamodeld */,
+				454B16D62897DEE1007F2A60 /* ListTableViewCell.swift */,
+				454B16D72897DEE1007F2A60 /* ListTableViewCell.xib */,
 			);
 			path = CoreDataDemo;
 			sourceTree = "<group>";
@@ -129,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				454B16CF2897DD39007F2A60 /* LaunchScreen.storyboard in Resources */,
+				454B16D92897DEE1007F2A60 /* ListTableViewCell.xib in Resources */,
 				454B16CC2897DD39007F2A60 /* Assets.xcassets in Resources */,
 				454B16C72897DD34007F2A60 /* Main.storyboard in Resources */,
 			);
@@ -145,6 +152,7 @@
 				454B16CA2897DD34007F2A60 /* CoreDataDemo.xcdatamodeld in Sources */,
 				454B16C02897DD34007F2A60 /* AppDelegate.swift in Sources */,
 				454B16C22897DD34007F2A60 /* SceneDelegate.swift in Sources */,
+				454B16D82897DEE1007F2A60 /* ListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
